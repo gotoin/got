@@ -1,0 +1,16 @@
+{
+	"require":{
+		"filp/whoops": "*",
+		"illuminate/database": "*"
+	},
+
+	"autoload" : {
+
+		"classmap" : [
+			"core/"
+		],
+		"psr-4" : {
+			"app\\controllers\\" : "app/controllers/"
+		}
+	}
+}
