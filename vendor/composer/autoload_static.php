@@ -79,6 +79,13 @@ class ComposerStaticInitcc248175504c91c0c6ce41fe0b1310e2
     );
 
     public static $prefixesPsr0 = array (
+        'T' => 
+        array (
+            'Twig_' => 
+            array (
+                0 => __DIR__ . '/..' . '/twig/twig/lib',
+            ),
+        ),
         'D' => 
         array (
             'Doctrine\\Common\\Inflector\\' => 
@@ -89,8 +96,10 @@ class ComposerStaticInitcc248175504c91c0c6ce41fe0b1310e2
     );
 
     public static $classMap = array (
-        'core\\route' => __DIR__ . '/../..' . '/core/route.php',
-        'core\\view' => __DIR__ . '/../..' . '/core/view.php',
+        'core\\Route' => __DIR__ . '/../..' . '/core/Route.php',
+        'core\\View' => __DIR__ . '/../..' . '/core/View.php',
+        'core\\library\\Config' => __DIR__ . '/../..' . '/core/library/Config.php',
+        'core\\library\\Helper' => __DIR__ . '/../..' . '/core/library/Helper.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

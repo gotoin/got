@@ -6,6 +6,6 @@
  */
 
 use core\Route;
-Route::get('adfasf/index', '\app\controllers\Index@index');
+Route::get('/', '\app\controllers\Index@index');
 
 Route::dispatch();

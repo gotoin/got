@@ -1,7 +1,8 @@
 {
 	"require":{
 		"filp/whoops": "*",
-		"illuminate/database": "*"
+		"illuminate/database": "*",
+		"twig/twig": "^2.1"
 	},
 
 	"autoload" : {

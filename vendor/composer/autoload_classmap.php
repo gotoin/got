@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'core\\route' => $baseDir . '/core/route.php',
-    'core\\view' => $baseDir . '/core/view.php',
+    'core\\Route' => $baseDir . '/core/Route.php',
+    'core\\View' => $baseDir . '/core/View.php',
+    'core\\library\\Config' => $baseDir . '/core/library/Config.php',
+    'core\\library\\Helper' => $baseDir . '/core/library/Helper.php',
 );

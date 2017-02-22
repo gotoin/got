@@ -7,11 +7,12 @@
 
 namespace app\controllers;
 
-use core\view;
+use core\View;
 
 class Index
 {
     public function index(){
-        return view::make('home') -> with('123', '12345');
+        $view = new View();
+        $view -> display('home.html', array('test' => 123455));
     }
 }
