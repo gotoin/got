@@ -6,8 +6,9 @@
  */
 
 return [
-   //调试模式
-   'DEBUG' => true,
+
+    //调试模式
+    'DEBUG' => true,
     //缓存目录
     'CACHE_PATH' => BASE_PATH .'/cache/',
 ];

@@ -11,7 +11,7 @@
 			"core/"
 		],
 		"psr-4" : {
-			"app\\controllers\\" : "app/controllers/"
+			"app\\" : "app/"
 		}
 	}
 }

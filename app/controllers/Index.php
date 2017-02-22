@@ -7,12 +7,11 @@
 
 namespace app\controllers;
 
-use core\View;
+
 
 class Index
 {
     public function index(){
-        $view = new View();
-        $view -> display('home.html', array('test' => 123455));
+        view('home.html', array('test' => 123455));
     }
 }

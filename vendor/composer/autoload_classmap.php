@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'core\\Model' => $baseDir . '/core/Model.php',
     'core\\Route' => $baseDir . '/core/Route.php',
     'core\\View' => $baseDir . '/core/View.php',
     'core\\library\\Config' => $baseDir . '/core/library/Config.php',

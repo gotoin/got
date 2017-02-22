@@ -15,7 +15,7 @@ class ComposerStaticInitcc248175504c91c0c6ce41fe0b1310e2
     public static $prefixLengthsPsr4 = array (
         'a' => 
         array (
-            'app\\controllers\\' => 16,
+            'app\\' => 4,
         ),
         'W' => 
         array (
@@ -40,9 +40,9 @@ class ComposerStaticInitcc248175504c91c0c6ce41fe0b1310e2
     );
 
     public static $prefixDirsPsr4 = array (
-        'app\\controllers\\' => 
+        'app\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/app/controllers',
+            0 => __DIR__ . '/../..' . '/app',
         ),
         'Whoops\\' => 
         array (
@@ -96,6 +96,7 @@ class ComposerStaticInitcc248175504c91c0c6ce41fe0b1310e2
     );
 
     public static $classMap = array (
+        'core\\Model' => __DIR__ . '/../..' . '/core/Model.php',
         'core\\Route' => __DIR__ . '/../..' . '/core/Route.php',
         'core\\View' => __DIR__ . '/../..' . '/core/View.php',
         'core\\library\\Config' => __DIR__ . '/../..' . '/core/library/Config.php',

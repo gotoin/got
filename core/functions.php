@@ -18,3 +18,17 @@ function config($key, $value = null){
         return \core\library\Config::set($key, $value);
     }
 }
+
+/**
+ * 渲染页面
+ * @param null $path
+ * @param null $arr
+ * @return \core\View|void
+ */
+function view($path = null, $arr = null){
+    $view = new \core\View();
+    if(isset($path)){
+        $view = $view -> display($path, $arr);
+    }
+    return $view;
+}

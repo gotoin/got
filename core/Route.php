@@ -56,7 +56,7 @@ class Route
                         //$last = end($parts);
                         $seg = explode('@', self::$callbacks[$route]);
                         $controller = new $seg[0]();
-                        return $controller -> {$seg[1]}();  //执行控制器方法
+                        echo $controller -> {$seg[1]}();  //执行控制器方法
                     }
                 }
             }
